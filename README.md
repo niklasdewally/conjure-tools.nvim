@@ -12,6 +12,7 @@ with some `neovim` specific additions.
 
 * Syntax highlighting for [Essence](https://conjure.readthedocs.io/en/latest/essence.html) and [Essence'](http://savilerow.cs.st-andrews.ac.uk/index.html) modelling languages.
 
+* Snippets (if LuaSnip is installed)
 
 ## Installation
 
@@ -24,6 +25,25 @@ For example, using packer:
 ```lua
 use'niklasdewally/conjure.nvim'
 ```
+
+For snippets support, [LuaSnip](https://github.com/L3MON4D3/LuaSnip) is required.
+
+
+## Credits and Licence 
+
+* Snippets are taken from the [official vscode plugin](https://github.com/conjure-cp/conjure-vs-code/) and are
+  licensed under the [original terms](snippets/LICENCE).
+
+* Filetype detection, indentation, syntax, ... are taken from [essence.vim](https://github.com/Druid-of-Luhn/essence.vim).
+  
+Both *essence.vim* and this project as a whole are licensed with the `vim` licence.
+
+(see [LICENCE](LICENCE)).
+  
+
+
+
+
 
 
 
